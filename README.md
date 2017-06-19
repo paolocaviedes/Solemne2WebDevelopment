@@ -1,2 +1,2 @@
 # Solemne 2
-##Paolo Caviedes - Felipe Gajardo
+## Paolo Caviedes - Felipe Gajardo
