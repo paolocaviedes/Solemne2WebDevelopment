@@ -18,7 +18,7 @@ class Noticia(models.Model):
 	fechadePublicacion=models.DateTimeField(auto_now=False, auto_now_add=False)
 	contenido=models.CharField(max_length=5000)
 	imagen=models.ImageField(upload_to="newsImages")
-	categoria=models.ForeignKey(Categoria)
+	categoria=models.ForeignKey(Categoria,verbose_name = u'categoria')
 	destacada=models.BooleanField()
 
 	def __str__(self):

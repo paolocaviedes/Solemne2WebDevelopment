@@ -23,5 +23,5 @@ urlpatterns = [
     url(r'^website/', include('website.urls')),
     # url(r'^noticia_detalle.html', include('website.urls')),
     url(r'^', include('website.urls')),
-# ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# ]
