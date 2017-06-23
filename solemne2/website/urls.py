@@ -6,5 +6,6 @@ urlpatterns = [
                 # Avoid using your .html in your resources. Or create a separate django app.
                 # The home page  
                 url(r'^$', views.index, name='index'),
+                url(r'^noticia_detalle.html$', views.noticia_detalle, name='noticia_detalle'),
 
               ]
